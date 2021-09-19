@@ -1,0 +1,32 @@
+// Grading marks of students
+#include<stdio.h>
+int main()
+{
+	int Marks ;
+	printf("Marks of the student is ");
+	scanf("%d",&Marks);
+	if(Marks>=90)
+	{
+		printf("Your Grade is A");
+	}
+	else if(Marks>=80 && Marks<90)
+	{
+		printf(" Your Grade is B");
+	}
+	else if(Marks>=70 && Marks<80)
+	{
+		printf("Your Grade is C");
+	}
+	else if(Marks>=60 && Marks<70)
+	{
+		printf("Your Grade is D ");
+	}
+	else if (Marks>=50 && Marks<60)
+	{
+		printf("Your Grade is E ");
+	}
+	else if(Marks<50)
+	{
+		printf("Your Grade is F");
+	}
+}
